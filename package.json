@@ -1,0 +1,28 @@
+{
+  "name": "webar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "version": "webpack -v",
+    "start": "webpack-cli serve --mode development --https",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/three": "^0.152.0",
+    "file-loader": "^6.2.0",
+    "ts-loader": "^9.4.2",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "@ar-js-org/ar.js": "^3.4.5",
+    "three": "^0.152.2"
+  }
+}
