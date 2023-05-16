@@ -1,4 +1,4 @@
-import { Scene } from "./Secne";
+import { Scene } from "./Scene";
 import { ArOperator } from "./ArOperator";
 
 const scene = new Scene();

@@ -41,6 +41,7 @@ declare module "@ar-js-org/ar.js/three.js/build/ar-threex" {
      * カメラ映像がvideoタグに出力される
      */
     public init(onCompleted: () => void): any;
-    public update(srcElement: HTMLElement);
+    public update(srcElement: HTMLElement): boolean;
+    public getProjectionMatrix(): Matrix4;
   }
 }

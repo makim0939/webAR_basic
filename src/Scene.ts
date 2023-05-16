@@ -37,6 +37,12 @@ export class Scene {
     });
     return this.renderer;
   }
+
+  //getter
+  public getCamera() {
+    return this.camera;
+  }
+
   public render() {
     this.renderer.setClearColor(0x000000, 0);
     this.renderer.setSize(640, 480);
