@@ -6,5 +6,6 @@ $ npm i
 ```
 $ npm run start
 ```
+ソースコードのpattern-marker.pngにカメラを向けるとキューブが表示されます。
 https://github.com/makim0939/webAR_basic/assets/95673492/ef17cd8c-ec60-48e4-8505-68e33559c179
 
